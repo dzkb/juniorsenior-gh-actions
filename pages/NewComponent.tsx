@@ -5,5 +5,5 @@ type SimpleProps = {
 };
 
 export default function NewComponent({ children }: SimpleProps): JSX.Element {
-  return <h1>{children}</h1>;
+  return <h1>{children.toString().toUpperCase()}</h1>;
 }
