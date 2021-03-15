@@ -9,7 +9,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     env:
-        BASE_PATH: ci-cd-demo
+        BASE_PATH: juniorsenior-gh-actions
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2.3.4
