@@ -1,0 +1,6 @@
+node_modules
+.next
+.github
+out
+next.config.js
+.eslintrc.js
