@@ -1,9 +1,9 @@
 import React from "react";
 
 type SimpleProps = {
-  children: React.ReactNode;
+	children: React.ReactNode;
 };
 
 export default function NewComponent({ children }: SimpleProps): JSX.Element {
-  return <h1>{children.toString().toUpperCase()}</h1>;
+	return <h1>{children}</h1>;
 }
