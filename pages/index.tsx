@@ -16,7 +16,7 @@ export default function Home(): JSX.Element {
 
         <NewComponent>This is a new component!</NewComponent>
 
-        <h3>New feature</h3>
+        <h3>New feature to be deployed</h3>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>
