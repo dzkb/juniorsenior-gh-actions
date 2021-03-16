@@ -1,0 +1,22 @@
+name: Lint-Test-Build
+
+on: [pull_request]
+
+jobs:
+  lint-test-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.4
+
+      - name: Install 🔧
+        run: npm install
+
+      - name: Lint 🕵️‍♀️
+        run: npm run lint
+
+      - name: Test 🐛
+        run: npm run test
+
+      - name: Build 📦
+        run: npm run build
