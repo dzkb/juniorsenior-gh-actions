@@ -2,7 +2,7 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 
-import NewComponent from "../pages/NewComponent";
+import NewComponent from "../components/NewComponent";
 
 describe("Some Test Suit", () => {
   it("Some Test Case", () => {

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import NewComponent from "./NewComponent";
+import NewComponent from "../components/NewComponent";
 
 export default function Home(): JSX.Element {
   return (

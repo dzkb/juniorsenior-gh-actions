@@ -10,6 +10,7 @@ Repozytorium zawiera kod źródłowy przykładowej aplikacji Next.js, dla które
 ## Continuous Integration
 
 Procedura uruchamiana dla Pull Requestów (utworzenie oraz dodanie commitów), która:
+
 1. Pobiera zależności aplikacji
 2. Analizuje kod przy użyciu `eslint` i `prettier`a
 3. Uruchamia testy
@@ -18,6 +19,7 @@ Procedura uruchamiana dla Pull Requestów (utworzenie oraz dodanie commitów), k
 ## Continuous Deployment
 
 Procedura uruchamiana dla commitów na brancha `master`, która wdraża nową wersję aplikacji na środowisko w GitHub Pages:
+
 1. Pobiera zależności aplikacji
 2. Ustawia [`basePath`](https://nextjs.org/docs/api-reference/next.config.js/basepath) aplikacji next.js
 3. Dodaje plik [.nojekyll](https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/)
